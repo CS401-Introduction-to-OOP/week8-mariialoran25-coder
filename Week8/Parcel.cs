@@ -4,7 +4,7 @@ public class Parcel : DeliveryItem
 {
     public string Dimensions { get; set; }
 
-    public Letter(string trakingNumber, double weight, string dimensions) : base(trakingNumber, weight)
+    public Parcel(string trakingNumber, double weight, string dimensions) : base(trakingNumber, weight)
     {
         Dimensions = dimensions;
     }
